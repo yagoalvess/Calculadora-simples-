@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <form action="">
+
+    <div id="calculadora">
+    
+    <input id="visor" type="text" disabled>
+
+    <div id="primeira">
+        <input class="b" type="button" value="7" onclick="botao(value)">
+        <input class="b" type="button" value="8" onclick="botao(value)">
+        <input class="b" type="button" value="9" onclick="botao(value)">
+        <input class="b" type="button" value="/" onclick="botao(value)">
+    </div>
+
+    <div id="segunda">
+        <input class="b" type="button" value="4"
+        onclick="botao(value)">
+        <input class="b" type="button" value="5"
+        onclick="botao(value)">
+        <input class="b" type="button" value="6"
+        onclick="botao(value)">
+        <input class="b" type="button" value="*"
+        onclick="botao(value)">
+    </div>
+
+    <div id="terceira">
+        <input class="b" type="button" value="1"
+        onclick="botao(value)">
+        <input class="b" type="button" value="2"
+        onclick="botao(value)">
+        <input class="b" type="button" value="3"
+        onclick="botao(value)">
+        <input class="b" type="button" value="-"
+        onclick="botao(value)">
+    </div>
+
+    <div id="quarta">
+        <input class="b" type="button" value="0"
+        onclick="botao(value)">
+        <input  class="b" type="button" value="CE" onclick="reseta()"> 
+        <input id="igual" class="b" type="button" value="="
+        onclick="calculo()">
+        <input class="b" type="button" value="+"
+        onclick="botao(value)">
+    </div></div>
+    </form>
+
+    
+    
+</body>
+</html>
